@@ -15,14 +15,17 @@ Donde **B** y **C** son operandos y **A** es el resultado.
 
 Pero antes de comprender como vamos a darle la instrucciones a un computador para que resuelva operaciones aritmetico lógicas, debemos entender cuales son **principios de diseño de toda arquitectura de cómputo**
 
-# Principios de diseño de hardware.
+# Principios de diseño de arquitectura.
 ## Primer principio de diseño de hardware: La simplicidad favorece la regularidad ()
 * Ejemplo de una asignación en **SPARC V8**
 *  H = (A+B) - (C+D)
-*  ADD A B T_0  
-*  ADD C D T_1 
-* SUB T_0 T_1 H 
+*  ADD A B T0  
+*  ADD C D T1 
+* SUB T0 T1 H 
 
 ### Registros
 Un registro es una memoria de alta velocidad y poca capacidad, integrada en el microprocesador, que permite guardar transitoriamente y acceder a valores muy usados, generalmente en operaciones matemáticas.
+## Segundo principio de diseño de hardware: Entre más pequeños más rápido.
+
+ #![Registros  en SPARC V8](./images/jerarquica.png "Definición de registros de la arquitectura SPARC V8")
 
