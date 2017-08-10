@@ -18,7 +18,7 @@ Pero antes de comprender como vamos a darle la instrucciones a un computador par
 # Principios de diseño de arquitectura.
 ## Primer principio de diseño de hardware: La simplicidad favorece la regularidad.
 * Ejemplo de una asignación en **SPARC V8**
-*  c
+*  H = (A+B) - (C+D)
 *  add A, B, T0  
 *  add C, D, T1 
 *  sub T0, T1, H 
