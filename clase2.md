@@ -27,5 +27,12 @@ Pero antes de comprender como vamos a darle la instrucciones a un computador par
 Un registro es una memoria de alta velocidad y poca capacidad, integrada en el microprocesador, que permite guardar transitoriamente y acceder a valores muy usados, generalmente en operaciones matemáticas.
 ## Segundo principio de diseño de hardware: Entre más pequeños más rápido.
 
- #![Registros  en SPARC V8](./images/registros.png "Definición de registros de la arquitectura SPARC V8")
+ ![Registros  en SPARC V8](./images/registros.png "Definición de registros de la arquitectura SPARC V8")
+ 
+ ![Registros en Ventanas  en SPARC V8](./images/ventaneo.png "Definición de registros en las ventanas de la arquitectura SPARC V8")
+ 
+ 
+ 
+
+
 
