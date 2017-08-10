@@ -42,10 +42,17 @@ Un registro es una memoria de alta velocidad y poca capacidad, integrada en el m
  * add %L3, %L4, %L6
  * sub %L5, %L6, %L0
  
- #TALLER
+ # TALLER
  * Representar los numeros del 0-31, en binarios de 5bits
  * Asignar los registros a la siguiente operación: 
  + + H = (S-J) + (T-X)-(V+W)
+ * Implemente la función **pot** en lenguaje de alto nivel,que realice la potencia de dos números enteros sin signo realizando llamados a la mult.
+ * Calcule un **polinomio de grado n** en lenguaje de alto nivel, en donde los coeficientes del polinomio se encuentran almacenados en un vector k de n+1 posiciones, de la siguientes forma:
+  ![polinomio](./images/polinomio.png "Polinomio de grado n")
+ * Implemente una función **fact** en lenguaje de alto nivel, que calcule el **factorial** de un número entero sin signo
+
+ 
+
  
  
  
