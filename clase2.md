@@ -18,10 +18,10 @@ Pero antes de comprender como vamos a darle la instrucciones a un computador par
 # Principios de diseño de arquitectura.
 ## Primer principio de diseño de hardware: La simplicidad favorece la regularidad.
 * Ejemplo de una asignación en **SPARC V8**
-*  H = (A+B) - (C+D)
-*  ADD A B T0  
-*  ADD C D T1 
-* SUB T0 T1 H 
+*  c
+*  add A, B, T0  
+*  add C, D, T1 
+*  sub T0, T1, H 
 
 ### Registros
 Un registro es una memoria de alta velocidad y poca capacidad, integrada en el microprocesador, que permite guardar transitoriamente y acceder a valores muy usados, generalmente en operaciones matemáticas.
@@ -30,6 +30,23 @@ Un registro es una memoria de alta velocidad y poca capacidad, integrada en el m
  ![Registros  en SPARC V8](./images/registros.png "Definición de registros de la arquitectura SPARC V8")
  
  ![Registros en Ventanas  en SPARC V8](./images/ventaneo.png "Definición de registros en las ventanas de la arquitectura SPARC V8")
+ 
+ ### Ejemplo usando la notación SPARC V8
+ * H = (A+B) - (C+D)
+ * T0 = %L5
+ * T0 = %L6
+ * %L0 = (%L1 + %L2)-(%L3+%L4)
+ 
+ #### Al definir los registros que se van a usar para representar los valores de las variables, se pasa entonces a usar las instrucciones de la arquitectura SPARC V8.
+ * add %L1, %L2, %L5
+ * add %L3, %L4, %L6
+ * sub %L5, %L6, %L0
+ 
+ #TALLER
+ * Representar los numeros del 0-31, en binarios de 5bits
+ * Asignar los registros a la siguiente operación: 
+ + + H = (S-J) + (T-X)-(V+W)
+ 
  
  
  
