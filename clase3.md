@@ -62,3 +62,18 @@ Cuando pasamos nuestras instrucciones de forma binaria de 32 bits, puede ser un 
 Por lo tanto, para indicar, el número binario de la instrucción de la suma de 32 bits, se utilizo la nomenclatura hexadecimal:
 -0xA4040011 ----> add (**0x** indica que se trata de un número hexadecimal.) 
 
+## TALLER
+
+- Convertir a instrucciones **SPARC V8**.
+-- int x = 0; 
+-- int y = 8; 
+-- int z = 1; 
+- Convertir a instrucciones **SPARC V8**, a binario de **32 bits** usando el **formato 3** y a número **hexadecimal**.
+-- y = x + 3;
+-- z = z + 3;
+-- x = (x - z) + (3 + y);
+
+- Usar el ld, y st.
+-- a[4] = a[2] + x;
+-- y[0] = y[40] + 13;
+
