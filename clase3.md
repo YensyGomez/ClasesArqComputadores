@@ -41,11 +41,14 @@ No tuvo mucha aplicación en el hardware debido a la notación, pues era más di
 - +2 ----> 00000000000000000000000000000010
 - -2 ----> niego el número positivo y a esa negación le sumo 1.
 
-![COmplemento a 2](./images/complemento2.png "Complemento a 2")
+![Complemento a 2](./images/complemento2.png "Complemento a 2")
 
 ### Representando instrucciones en el computador 
 #### Ejemplo 
 - add %l0, %l1,%l3 ---> r[16]-r[23], recuerda que son los registros locales que van desde %l0-%l7
+
+
+![Instrucciones](./images/instruccionadd.png "Instruccion")
 
 
 
