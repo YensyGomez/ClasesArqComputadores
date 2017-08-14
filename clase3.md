@@ -66,8 +66,9 @@ Por lo tanto, para indicar, el número binario de la instrucción de la suma de 
 
 1. Convertir a instrucciones **SPARC V8**.
 - int x = 0; 
-- int y = 8; 
-- int z = 1; 
+- int y = -8; 
+- int z = -1; 
+- int l = 3;
 2. Convertir a instrucciones **SPARC V8**, a binario de **32 bits** usando el **formato 3** y a número **hexadecimal**.
 - y = x + 3;
 - z = z + 3;
