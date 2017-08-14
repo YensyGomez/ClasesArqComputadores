@@ -43,15 +43,17 @@ No tuvo mucha aplicación en el hardware debido a la notación, pues era más di
 
 ![Complemento a 2](./images/complemento2.png "Complemento a 2")
 
-### Representando instrucciones en el computador 
-#### Ejemplo 
+### Representando instrucciones en el computador
+#### Ejemplo
 - add %l0, %l1,%l3 ---> r[16]-r[23], recuerda que son los registros locales que van desde %l0-%l7
 
 
 ![Instrucciones](./images/instruccionadd.png "Instruccion")
 
+### Formato instrucciones ADD.
 
+![Formato add](./images/formatoadd.png "Formato add")
 
-
-
-
+Cuando pasamos nuestras instrucciones de forma binaria de 32 bits, puede ser un poco dispensioso a la hora de leer los formatos, por lo tanto por comodidad se suele representar las instrucciones binarias en hexadecimal.
+![Tabla hexadecimal](./images/
+tabla-hexadecimal-binario.jpg "Tabla hexadecimal")
