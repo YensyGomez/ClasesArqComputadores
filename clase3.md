@@ -55,5 +55,10 @@ No tuvo mucha aplicación en el hardware debido a la notación, pues era más di
 ![Formato add](./images/formatoadd.png "Formato add")
 
 Cuando pasamos nuestras instrucciones de forma binaria de 32 bits, puede ser un poco dispensioso a la hora de leer los formatos, por lo tanto por comodidad se suele representar las instrucciones binarias en hexadecimal.
-![Tabla hexadecimal](./images/
-tabla-hexadecimal-binario.jpg "Tabla hexadecimal")
+
+
+![Tabla hexadecimal](./images/tabla-hexadecimal-binario.jpg "Tabla Hexadecimal")
+
+Por lo tanto, para indicar, el número binario de la instrucción de la suma de 32 bits, se utilizo la nomenclatura hexadecimal:
+-0xA4040011 ----> add (**0x** indica que se trata de un número hexadecimal.) 
+
