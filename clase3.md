@@ -40,3 +40,5 @@ No tuvo mucha aplicación en el hardware debido a la notación, pues era más di
 
 - +2 ----> 00000000000000000000000000000010
 - -2 ----> niego el número positivo y a esa negación le sumo 1. 
+
+![COmplemento a 2](./images/complemento2.png "Complemento a 2")
