@@ -32,6 +32,9 @@ Generalmente son los valores que se le asignan a una variable cuando la iniciali
 #### Ejemplo
 - A = 5
 - add %g0,5,%l2
+#### Ejemplo 2.
+- A = R + 3
+- add %l1, 3, %l2
 ### Números con signo y sin signo.
 ##### Signo con magnitud:
 No tuvo mucha aplicación en el hardware debido a la notación, pues era más dificil de implementar.
