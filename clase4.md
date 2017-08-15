@@ -3,6 +3,9 @@
 ### Intrucciones
 #### - Formato 1 (**OP = 1**): CALL
 
+
+![Formato 1](./images/formato1.png "Formato1")
+
 #### - Formato 2 (**OP = 0**): **SETHI** e instrucciones de salto (**branch**)(**Bicc, FBFee, CPccc**)
 
 #### - Formaro 3: Intrucciones restantes (Aritmético lógicas, de memorias): (**OP = 2 Ó 3**)
