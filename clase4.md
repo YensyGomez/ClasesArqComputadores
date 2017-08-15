@@ -34,26 +34,36 @@
 + **opf** : Codificación de operaciones de punto flotante.
 
 ### Categorías de las Intrucciones
-+ Load/Store
+Las instrucciones SPARC V8 se pueden agrupar en seis categorías: load/store (carga / almacenamiento), aritmética-lógicas,
+Transferencia de control (CTI), registro de control de estado, operación de punto flotante,
+Y coprocesador operan:  
+
++ Load/Store (carga / almacenamiento)
 + Aritmético-lógicas
++ CTI(Control Transfer Instruction - Instrucciones de tranferencia de control)
 + Acceso a registros de estado
 + Instrucciones de unidad de punto flotante
 + Intrucciones de co-procesador
-+ CTI(Control Transfer Instruction - Instrucciones de tranferencia de control)
 
 ### Load/Store:
-Son las únicas instrucciones que acceden a memoria:
+
+Son las únicas instrucciones que acceden a memoria, Instrucciones de load y store
+tiene 2 registros **RS1** ,**RS2** o un registro ** RS1** y **simm13** para calcular la dirección de memoria de 32 bits.
 + 1 Byte ---> 8 bits
 + 2 Bytes ---> 16 bits (HalfWord)
 + 4 Bytes ---> 32 bits (Word)
 + 8 Bytes ---> 64 bits (DoubleWord)
 De esta manera identificamos el espacio de direccionamiento.
 
-
-
 ![Address](./images/address.png "Direccionamiento de memoria")
 
+#### identificador de espacio de Memoria
+
+
+![AddressIdentifier](./images/addressIdentifier.png " espacio de direccionamiento de memoria")
+
 ### Instrucciones aritméticas enteras.
+
 + Son instrucciones triadicas.
 + Cualquier lectura del r[0] ---> (%g0) da cero(0).
 + Cualquier escritura en el registro r[0] ---> (%g0) es descartada.
