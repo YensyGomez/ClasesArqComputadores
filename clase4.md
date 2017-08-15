@@ -1,14 +1,14 @@
 # Principios de diseño de arquitectura
 ## Cuarto principio de diseño de hardware
 ### Intrucciones
-#### Formato 1 (**OP = 1**): CALL
+#### - Formato 1 (**OP = 1**): CALL
 
-#### Formato 2 (**OP = 0**): **SETHI** e instrucciones de salto (**branch**)(**Bicc, FBFee, CPccc**)
+#### - Formato 2 (**OP = 0**): **SETHI** e instrucciones de salto (**branch**)(**Bicc, FBFee, CPccc**)
 
-#### Formaro 3: Intrucciones restantes (Aritmético lógicas, de memorias): (**OP = 2 Ó 3**)
+#### - Formaro 3: Intrucciones restantes (Aritmético lógicas, de memorias): (**OP = 2 Ó 3**)
 
 ### Campos de las instrucciones:
-**OP** y **OP2**: estos dos campos de 2 y 3 bits respectivamente codifican todas las instrucciones y las instrucciones de formato 2.
+- **OP** y **OP2**: estos dos campos de 2 y 3 bits respectivamente codifican todas las instrucciones y las instrucciones de formato 2.
 
 #### Codificación **OP**
 
