@@ -7,8 +7,10 @@
 ![Formato 1](./images/formato1.png "Formato1")
 
 #### - Formato 2 (**OP = 0**): **SETHI** e instrucciones de salto (**branch**)(**Bicc, FBFee, CPccc**)
+![Formato 2](./images/formato2.png "Formato2")
 
 #### - Formaro 3: Intrucciones restantes (Aritmético lógicas, de memorias): (**OP = 2 Ó 3**)
+![Formato 3](./images/formato3.png "Formato1")
 
 ### Campos de las instrucciones:
 - **OP** y **OP2**: estos dos campos de 2 y 3 bits respectivamente codifican todas las instrucciones y las instrucciones de formato 2.
