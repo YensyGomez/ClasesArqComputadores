@@ -45,7 +45,7 @@
 Son las únicas instrucciones que acceden a memoria:
 + 1 Byte ---> 8 bits
 + 2 Bytes ---> 16 bits (HalfWord)
-+ 3 Bytes ---> 32 bits (Word)
++ 4 Bytes ---> 32 bits (Word)
 + 8 Bytes ---> 64 bits (DoubleWord)
 De esta manera identificamos el espacio de direccionamiento.
 
