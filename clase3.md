@@ -18,8 +18,8 @@ La arquitectura de **SPARC V8** maneja un direccionamiento por **byte**, de esta
 
 ### Ejemplo.
 ```c
-- a = b + c[9]
-´´´
+  a = b + c[9]
+```
 Lo primero que debemos hacer es asignarle los registros a las variables, en este caso a **A, B, C**.
 Una vez le halla asigando los registros:**A = %l0**,  **B = %l1**, **C = %l2**. Debo usar una intrucción de tranferencia que me carge el dato que esta contenido en C[9]; para ello usa la instrucción **LOAD**.
 - ld[%l2+(9*4)],%l3
