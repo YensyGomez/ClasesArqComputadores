@@ -28,12 +28,13 @@ Un registro es una memoria de alta velocidad y poca capacidad, integrada en el m
 ## Segundo principio de diseño de hardware: Entre más pequeños más rápido.
 
  ![Registros  en SPARC V8](./images/registros.png "Definición de registros de la arquitectura SPARC V8")
- Está dividida en:
+ 
+Está dividida en:
 
-Registros de Entrada: 8 registros de propósito general. Por estándar se sugiere que sean usados para recibir parámetros.
-Registros de Salida: 8 registros de propósito general. Por estándar se sugiere que sean usados para retornar valores.
-Registros Locales: 8 registros de propósito general. Por estándar se sugiere que sean usados para definir variables dentro de una función.
-Registros Globales: 8 registros de propósito general. Por estándar se sugiere que sean usados para almacenar variables globales
++ Registros de Entrada: 8 registros de propósito general. Por estándar se sugiere que sean usados para recibir parámetros.
++ Registros de Salida: 8 registros de propósito general. Por estándar se sugiere que sean usados para retornar valores.
++ Registros Locales: 8 registros de propósito general. Por estándar se sugiere que sean usados para definir variables dentro de una función.
++ Registros Globales: 8 registros de propósito general. Por estándar se sugiere que sean usados para almacenar variables globales
  
  ![Registros en Ventanas  en SPARC V8](./images/ventaneo.png "Definición de registros en las ventanas de la arquitectura SPARC V8")
  
