@@ -49,6 +49,10 @@ Son las únicas instrucciones que acceden a memoria:
 + 8 Bytes ---> 64 bits (DoubleWord)
 De esta manera identificamos el espacio de direccionamiento.
 
+
+
+![Address](./images/address.png "Direccionamiento de memoria")
+
 ### Instrucciones aritméticas enteras.
 + Son instrucciones triadicas.
 + Cualquier lectura del r[0] ---> (%g0) da cero(0).
