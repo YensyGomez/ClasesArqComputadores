@@ -70,3 +70,5 @@ De esta manera identificamos el espacio de direccionamiento.
 
 
 ## TALLER
+¿ Cuales son las instrucciones de control de transferencia (CTI)?.
+
