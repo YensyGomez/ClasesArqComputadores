@@ -8,8 +8,8 @@ En nuestra arquitectura **SPARC V8** tenemos las instrucciones **ld** (LOAD) y *
 
 la manera en como se usa las instrucciones de memoria de la arquitectura **SPARC V8** es de la siguiente manera:
 ```assembly
-ld[**address**],regrd
-st regrd, [**address**]
+ld[address],regrd
+st regrd, [address]
 ```
 Un **address** puede ser (**r[rs1] + r[rs2]**) ó (**r[rs1]+imm**)
 
@@ -52,10 +52,10 @@ add %g0,5,%l2
 No tuvo mucha aplicación en el hardware debido a la notación, pues era más dificil de implementar.
 
 ##### Complemento a 2:
-
+ ```
 - +2 ----> 00000000000000000000000000000010
 - -2 ----> niego el número positivo y a esa negación le sumo 1.
-
+ ```
 ![Complemento a 2](./images/complemento2.png "Complemento a 2")
 
 ### Representando instrucciones en el computador
@@ -76,7 +76,7 @@ Cuando pasamos nuestras instrucciones de forma binaria de 32 bits, puede ser un 
 ![Tabla hexadecimal](./images/tabla-hexadecimal-binario.jpg "Tabla Hexadecimal")
 
 Por lo tanto, para indicar, el número binario de la instrucción de la suma de 32 bits, se utilizo la nomenclatura hexadecimal:
--0xA4040011 ----> add (**0x** indica que se trata de un número hexadecimal.) 
+ ```-0xA4040011 ----> add (0x  ```indica que se trata de un número hexadecimal) 
 
 ## TALLER
 
