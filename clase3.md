@@ -7,10 +7,10 @@ Cuando el procesador necesita utilizar la información que se encuentra en una e
 En nuestra arquitectura **SPARC V8** tenemos las instrucciones **ld** (LOAD) y **st** (STORE), cada una tiene la capacidad de manejar datos de **32 bits**.
 
 la manera en como se usa las instrucciones de memoria de la arquitectura **SPARC V8** es de la siguiente manera:
-
-- ld[**address**],regrd
-- st regrd, [**address**]
-
+```assembly
+ld[**address**],regrd
+st regrd, [**address**]
+```
 Un **address** puede ser (**r[rs1] + r[rs2]**) ó (**r[rs1]+imm**)
 
 La arquitectura de **SPARC V8** maneja un direccionamiento por **byte**, de esta manera cada posición de memoria almacena **32 bits** o **4 bytes**.
@@ -22,20 +22,31 @@ La arquitectura de **SPARC V8** maneja un direccionamiento por **byte**, de esta
 ```
 Lo primero que debemos hacer es asignarle los registros a las variables, en este caso a **A, B, C**.
 Una vez le halla asigando los registros:**A = %l0**,  **B = %l1**, **C = %l2**. Debo usar una intrucción de tranferencia que me carge el dato que esta contenido en C[9]; para ello usa la instrucción **LOAD**.
-- ld[%l2+(9*4)],%l3
-- add %l1,%l3,%l0
+```assembly
+ ld[%l2+(9*4)],%l3
+ add %l1,%l3,%l0
+```
 ## Tercer principio de diseño de hardware: Hacer el caso común más rápido.
 
 ### Operandos contantes o inmediatos.
 Generalmente son los valores que se le asignan a una variable cuando la inicializamos o cuando se usan ciclos.
-
-- r[rs1], imm, r[rd]
+```assembly
+ r[rs1], imm, r[rd]
+```
 #### Ejemplo
-- A = 5
-- add %g0,5,%l2
+```c
+  a = 5
+  ```
+```assembly
+add %g0,5,%l2
+ ```
 #### Ejemplo 2.
-- A = R + 3
-- add %l1, 3, %l2
+```c
+ a = r + 3
+ ```
+ ```assembly
+ add %l1, 3, %l2
+  ```
 ### Números con signo y sin signo.
 ##### Signo con magnitud:
 No tuvo mucha aplicación en el hardware debido a la notación, pues era más dificil de implementar.
@@ -49,8 +60,9 @@ No tuvo mucha aplicación en el hardware debido a la notación, pues era más di
 
 ### Representando instrucciones en el computador
 #### Ejemplo
-- add %l0, %l1,%l3 ---> r[16]-r[23], recuerda que son los registros locales que van desde %l0-%l7
-
+ ```assembly
+ add %l0, %l1,%l3 ---> r[16]-r[23], recuerda que son los registros locales que van desde %l0-%l7
+ ```
 
 ![Instrucciones](./images/instruccionadd.png "Instruccion")
 
@@ -69,16 +81,22 @@ Por lo tanto, para indicar, el número binario de la instrucción de la suma de 
 ## TALLER
 
 1. Convertir a instrucciones **SPARC V8**.
+ ```c
 - int x = 0; 
 - int y = -8; 
 - int z = -1; 
 - int l = 3;
+ ```
 2. Convertir a instrucciones **SPARC V8**, a binario de **32 bits** usando el **formato 3** y a número **hexadecimal**.
+ ```c
 - y = x + 3;
 - z = z + 3;
 - x = (x - z) + (3 + y);
+ ```
 
 3. Usar el ld, y st.
+ ```c
 - a[4] = a[2] + x;
 - y[0] = y[40] + 13;
+ ```
 
