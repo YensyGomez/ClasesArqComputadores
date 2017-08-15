@@ -18,7 +18,7 @@
 #### Codificación **OP**
 ![op](./images/op.png "Codificación OP")
 #### Codificación **OP2**
-
+![op2](./images/op2.png "Codificación OP2")
 ### Campos de los formatos
 + **rd** : Es el registro fuente o el registro destino para una instrucciones **load/store** ó alguna operación aritmético-lógica.
 + **a** : Es un bit de anulación que evita que un salto sea tomado.
