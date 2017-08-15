@@ -16,7 +16,7 @@
 - **OP** y **OP2**: estos dos campos de 2 y 3 bits respectivamente codifican todas las instrucciones y las instrucciones de formato 2.
 
 #### Codificación **OP**
-
+![op](./images/op.png "Codificación OP")
 #### Codificación **OP2**
 
 ### Campos de los formatos
