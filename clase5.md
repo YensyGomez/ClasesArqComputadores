@@ -19,7 +19,7 @@ Las instrucciones SPARC V8 se pueden agrupar en seis categorías:
  
 Las instrucciones de control de transferencia puedes ser categorizadas, acorde como se muestran en la tabla, además la dirección destino es calculada teniendo en cuenta (PC-relativo vs. register-indirect) y el tiempo relativo que toma la trasnferencia con respecto al (non delay,vs. delay vs. condicional-delay).
  
- Categorias instrucciones de control de transferencia:
+ ##### Categorias instrucciones de control de transferencia:
  
  ![categorias](./images/categoriasCTI.png " Categorias de transferencia de datos")
  
