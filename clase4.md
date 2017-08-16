@@ -41,7 +41,7 @@ Y coprocesador operan:
 
 + Load/Store (carga / almacenamiento)
 + Aritmético-lógicas
-+ CTI(Control Transfer Instruction - Instrucciones de tranferencia de control)
++ CTI(Control Transfer Instruction - Instrucciones de control de tranferencia )
 + Acceso a registros de estado
 + Instrucciones de unidad de punto flotante
 + Intrucciones de co-procesador
