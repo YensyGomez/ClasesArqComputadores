@@ -23,6 +23,7 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  
  ![categorias](./images/categoriasCTI.png " Categorias de transferencia de datos")
  
+ 
  ### Branch
  #### Formato 2 ---> OP = 00 ---> 0.
   
@@ -35,11 +36,13 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  ### JMPL
  #### Formato 3 ---> OP = 10 ---> 2.
   ![jmpl](./images/jmpl.png "jmpl")
-  
-  
-  # Taller
- - ¿Que es una instrucción de Delay?
- 
+
+ - **PC-relativo**:
+ - **register-indirect**
+ - **register-indirect-vectored**:
+ - **delayed**:
+ - **non-delay**:
+ - **Condicional delayed**:
  
  
  
