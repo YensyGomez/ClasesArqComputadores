@@ -23,7 +23,7 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  
  ![categorias](./images/categoriasCTI.png " Categorias de transferencia de datos")
  
- Para entender esta tabla dirijase a la página 51 del manual de la arquitectura **SPARC V8**.
+ Para entender esta tabla dirigase a la página 51 del manual de la arquitectura **SPARC V8**.
  
  
  
