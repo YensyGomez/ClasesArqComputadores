@@ -21,7 +21,7 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  
  ##### Categorias instrucciones de control de transferencia:
  
- ![categorias](./images/categoriasCTI.png " Categorias de transferencia de datos"
+ ![categorias](./images/categoriasCTI.png " Categorias de transferencia de datos")
  
  ### Branch
  #### Formato 2 ---> OP = 00 ---> 0.
