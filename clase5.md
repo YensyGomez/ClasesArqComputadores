@@ -43,7 +43,7 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  - **non-delay**: salta directamente a la dirección establecida por la instrucción y no toma la instrucción antes de saltar.
  - **Condicional delayed**: Esta delay se toma o no se toma teniendo en cuenta el campo **a** si este es igual a 0, se ejectuta el Delay slot, si esta en 1 no se tiene en cuenta el delay.
  
-  ![Delayed](./images/conditionalDelayed.png "")
+  ![Delayed](./images/condicionalDelayed.png "")
  
  
  
