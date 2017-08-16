@@ -26,11 +26,11 @@ Las instrucciones SPARC V8 se pueden agrupar en seis categorías:
   
  ![Branch](./images/branch.png " Formato Branch")
  
-  ### CALL
+ ### CALL
  #### Formato 1 ---> OP = 01 ---> 1.
   ![Call](./images/call.png "Call")
   
-    ### JMPL
+ ### JMPL
  #### Formato 3 ---> OP = 10 ---> 2.
   ![jmpl](./images/jmpl.png "jmpl")
  
