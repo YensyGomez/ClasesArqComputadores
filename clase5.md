@@ -37,13 +37,12 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  #### Formato 3 ---> OP = 10 ---> 2.
   ![jmpl](./images/jmpl.png "jmpl")
 
- - **PC-relativo**:
- - **register-indirect**
- - **register-indirect-vectored**:
- - **delayed**:
- - **non-delay**:
- - **Condicional delayed**:
- 
+ - **PC-relativo**: Calcula su direccion por medio de la extensioón de signo del campo inmediato a 32 bits.
+ - **register-indirect**: Calcula su dirección destino de la siguiente manera "**r[rs1]+r[rs2]**" si **i**= 0, ó **r[rs1]+ sign_ext(simm13)**, si **i**= 0.  
+ - **delayed**: Es la instrucción que es ejecutada despues de realizar un salto, las instrucciones que siempre realizan un delay antes de saltar es **CALL and JMPL**.
+ - **non-delay**: salta directamente a la dirección establecida por la instrucción y no toma la instrucción antes de saltar.
+ - **Condicional delayed**: Esta delay se toma o no se toma teniendo en cuenta el campo **a** si este es igual a 0, se ejectuta el Delay slot, si esta en 1 no se tiene en cuenta el delay.
+  ![Delayed](./images/conditionalDelayed.png " Categorias de transferencia de datos")
  
  
  
