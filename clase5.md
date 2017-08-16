@@ -39,6 +39,10 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  ### JMPL
  #### Formato 3 ---> OP = 10 ---> 2.
   ![jmpl](./images/jmpl.png "jmpl")
+  
+  
+  #Taller
+  ¿Que es una instrucción de Delay?
  
  
  
