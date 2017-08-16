@@ -23,6 +23,8 @@ Las instrucciones SPARC V8 se pueden agrupar en seis categorías:
  
  ### Branch
  #### Formato 2 ---> OP = 10 ---> 2.
+  
+ ![categorias](./images/categoriasCTI.png " Categorias de transferencia de datos")
  
  
  
