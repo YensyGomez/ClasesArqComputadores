@@ -41,8 +41,8 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
   ![jmpl](./images/jmpl.png "jmpl")
   
   
-  #Taller
-  ¿Que es una instrucción de Delay?
+  # Taller
+ - ¿Que es una instrucción de Delay?
  
  
  
