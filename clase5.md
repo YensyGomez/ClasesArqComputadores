@@ -8,7 +8,7 @@ Las instrucciones SPARC V8 se pueden agrupar en seis categorías:
 + Instrucciones de unidad de punto flotante
 + Intrucciones de co-procesador
 
-## Intrucciones de control de transferencia (CTI).
+## Instrucciones de control de transferencia (CTI).
  Las instrucciones de control de tranferencia se conforman por instrucciones que modifican el **nPC**. (Next program Counter)**nPC** es un registro de 32 bits que contiene las dirección de la próxima instrucción a ejectutar. Las instrucciones de control de tranferencia son: 
  
  - Ramas condicionados **Branch** (**Bicc, FBfcc,CPccc**)
