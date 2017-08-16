@@ -17,9 +17,15 @@ Las instrucciones SPARC V8 se pueden agrupar en seis categorías:
  - Retorno de excepciones **Return from Trap**(**RETT**)
  - Excepciones **Trap** (**TIcc**)
  
+Las instrucciones de control de transferencia puedes ser categorizadas, acorde como se muestran en la tabla, además la dirección destino es calculada teniendo en cuenta (PC-relativo vs. register-indirect) y el tiempo relativo que toma la trasnferencia con respecto al (non delay,vs. delay vs. condicional-delay).
+ 
  Categorias instrucciones de control de transferencia:
  
  ![categorias](./images/categoriasCTI.png " Categorias de transferencia de datos")
+ 
+ Para entender esta tabla dirijase a la página 51 del manual de la arquitectura **SPARC V8**.
+ 
+ 
  
  ### Branch
  #### Formato 2 ---> OP = 00 ---> 0.
