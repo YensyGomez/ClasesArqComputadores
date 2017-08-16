@@ -15,7 +15,7 @@ Las instrucciones SPARC V8 se pueden agrupar en seis categorías:
  
  - Saltos y ramas condicionados **Branch** (**Bicc, FBfcc,CPccc**)
  - Llamados **Call and Link** (**CALL**)
- - saltos **Jump and Link**(**JUMPL**)
+ - saltos **Jump and Link**(**JMPL**)
  - Retorno de excepciones **Return from Trap**(**RETT**)
  - Excepciones **Trap** (**TIcc**)
  
