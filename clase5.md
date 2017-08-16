@@ -42,7 +42,8 @@ Las instrucciones de control de transferencia puedes ser categorizadas, acorde c
  - **delayed**: Es la instrucción que es ejecutada despues de realizar un salto, las instrucciones que siempre realizan un delay antes de saltar es **CALL and JMPL**.
  - **non-delay**: salta directamente a la dirección establecida por la instrucción y no toma la instrucción antes de saltar.
  - **Condicional delayed**: Esta delay se toma o no se toma teniendo en cuenta el campo **a** si este es igual a 0, se ejectuta el Delay slot, si esta en 1 no se tiene en cuenta el delay.
-  ![Delayed](./images/conditionalDelayed.png " Categorias de transferencia de datos")
+ 
+  ![Delayed](./images/conditionalDelayed.png "")
  
  
  
