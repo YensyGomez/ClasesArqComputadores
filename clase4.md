@@ -1,5 +1,6 @@
 # Principios de diseño de arquitectura
 ## Cuarto principio de diseño de hardware
+### Buenos diseños implican grandes compromisos.
 ### Intrucciones
 #### - Formato 1 (**OP = 1**): CALL
 
