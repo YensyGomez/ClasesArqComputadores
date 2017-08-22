@@ -21,3 +21,12 @@ Permiten modificar el comportamiento en un momento determinado.
 - **PSR**(Processor State Register)
 
 ![Processor State Register](./images/psr.png "Register")
+
+- **impl**: Implementación
+- **version**: Vérsión
+- **ICC** : Esta dividido en 4 bits: **n**: Negativo cuando una operación da un número negativo, **Z**: se coloca en 1, cuando el resultado de la operación da cero, **v**: Over Flow se activa cuando el resultado de una operación da más de 32 bits y el bit **c**: Carry, se activa cuando se tiene acarreo.
+
+-**reserved**: son un conjunto de bit no definidos dentro de la especificación de la arquitectura para que el diseñador los use de manera libre.
+**EC**(Enable co-processor): Indica si el procesador tiene unidad de co-procesamiento(FPGA,Targeta gráfica, etc)
+**EF**: Es un bit que me indica si la arquitectura tiene unidad de punto flotante.
+
