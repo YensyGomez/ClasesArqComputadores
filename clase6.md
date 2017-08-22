@@ -18,7 +18,7 @@ Permiten modificar el comportamiento en un momento determinado.
 
 
 ### Registro de control y estado.
-- **PSR**(Processor State Register)
+#### **PSR**(Processor State Register)
 
 ![Processor State Register](./images/psr.png "Register")
 
@@ -31,4 +31,12 @@ Permiten modificar el comportamiento en un momento determinado.
 - **reserved**: son un conjunto de bit no definidos dentro de la especificación de la arquitectura para que el diseñador los use de manera libre.
 - **EC**(Enable co-processor): Indica si el procesador tiene unidad de co-procesamiento(FPGA,Targeta gráfica, etc)
 - **EF**: Es un bit que me indica si la arquitectura tiene unidad de punto flotante.
+- **PIL**: Processor Interrupt level(la arquitectura SPARC V8 tiene iterrupciones llamadas Traps)
+- **S**: Supervisor; Indica el modo en el cual se ejecutó el procesador durante la instruccion anterior.
+- **ET**: Habilita al procesador para que soporte traps.
+- **CWP** Current Windows Pointer, Indica sobre que ventana estoy accediendo o guardando los datos.
+- **nPC**: (Next Program Counter), Es un registro de 32 bits que contiene la dirección próxima de una instrucción a ejecutar.
+- **PC**: (Program Counter): Es un registro de 32 bits contiene la dirección de la instrucción actual.
+#### Window Invalid Mask
+- Campo WIM
 
