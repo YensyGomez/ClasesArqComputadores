@@ -53,6 +53,10 @@ Las ventanas implementadas tiene el bit en cero, si no estan implementadas tiene
 - **TBA**: Traps Base Address. Envía rutnias especificas para tratar un trap determinado.
 - **traps Type**: Indica que tipo de traps se genero.
 - **zero**: Bits en cero
+#### Y(Registros de Múltiplicación y División)
+
+Se usa como registro para hacer operaciónes entre enteros. Podemos multiplicar dos enteros de 32 bits y obtener un resultado de 64. Tambien puede existir que se de una división de  bits entre 32 bits. 
+
 
 #### Program Counters(nPC, PC)
 - **nPC**: (Next Program Counter), Es un registro de 32 bits que contiene la dirección próxima de una instrucción a ejecutar osea **PC+4**.
