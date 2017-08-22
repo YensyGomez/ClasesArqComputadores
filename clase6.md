@@ -39,5 +39,6 @@ Permiten modificar el comportamiento en un momento determinado.
 - **PC**: (Program Counter): Es un registro de 32 bits contiene la dirección de la instrucción actual.
 #### Window Invalid Mask
 - **Campo WIM**
+![registro de ventanas](./images/wim.png "Registro de ventanas")
 
 
