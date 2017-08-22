@@ -38,7 +38,14 @@ Permiten modificar el comportamiento en un momento determinado.
 - **nPC**: (Next Program Counter), Es un registro de 32 bits que contiene la dirección próxima de una instrucción a ejecutar osea **PC+4**.
 - **PC**: (Program Counter): Es un registro de 32 bits contiene la dirección de la instrucción actual.
 #### Window Invalid Mask
+
 - **Campo WIM**
+
 ![registro de ventanas](./images/wim.png "Registro de ventanas")
+
+Las ventanas implementadas tiene el bit en cero, si no estan implementadas tiene un valor de 1.
+
+#### TBR(Traps base register)
+- ** Campos de TBR
 
 
