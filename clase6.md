@@ -20,4 +20,4 @@ Permiten modificar el comportamiento en un momento determinado.
 ### Registro de control y estado.
 - **PSR**(Processor State Register)
 
-
+![Processor State Register](./images/psr.png "Register")
