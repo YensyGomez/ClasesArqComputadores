@@ -35,8 +35,9 @@ Permiten modificar el comportamiento en un momento determinado.
 - **S**: Supervisor; Indica el modo en el cual se ejecutó el procesador durante la instruccion anterior.
 - **ET**: Habilita al procesador para que soporte traps.
 - **CWP** Current Windows Pointer, Indica sobre que ventana estoy accediendo o guardando los datos.
-- **nPC**: (Next Program Counter), Es un registro de 32 bits que contiene la dirección próxima de una instrucción a ejecutar.
+- **nPC**: (Next Program Counter), Es un registro de 32 bits que contiene la dirección próxima de una instrucción a ejecutar osea **PC+4**.
 - **PC**: (Program Counter): Es un registro de 32 bits contiene la dirección de la instrucción actual.
 #### Window Invalid Mask
-- Campo WIM
+- **Campo WIM**
+
 
