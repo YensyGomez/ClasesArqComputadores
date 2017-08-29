@@ -3,6 +3,7 @@
 ### Instrucción entera LOAD
 
 ![Instrucciones en SPARC V8](./images/InstruccionLOAD.png "Definición de Instrucciones LOAD")
+![Instrucciones en SPARC V8](./images/ensambladorLOAD.png "Definición de Instrucciones LOAD")
 
 ### Instrucción entera STORE
 ### Instrucción SETHI
