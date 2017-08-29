@@ -10,8 +10,9 @@
 ### Instrucción SETHI
 ![Instrucciones en SPARC V8](./images/IntruccionSETHI.png "Definición de Instrucción SETHI")
 ### Instruccion NOP
-![Instrucciones en SPARC V8](./images/InStruccionNOP.png "Definición de Instrucción NOP")
+![Instrucciones en SPARC V8](./images/InstruccionNOP.png "Definición de Instrucción NOP")
 ### Instrucciones Lógicas
+![Instrucciones en SPARC V8](./images/Instruccionlogica.png "Definición de Instrucción NOP")
 ### Instrucciones SHIFT
 ### Instrucciones SAVE and RESTORE
 ### TALLER
