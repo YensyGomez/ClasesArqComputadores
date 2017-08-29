@@ -2,7 +2,7 @@
 # Descripción de las instrucciones de la arquitectura SPARC V8
 ### Instrucción entera LOAD
 
-![Instrucciones en SPARC V8](./images/instruccionLOAD.png "Definición de Instrucciones LOAD")
+![Instrucciones en SPARC V8](./images/InstruccionLOAD.png "Definición de Instrucciones LOAD")
 
 ### Instrucción entera STORE
 ### Instrucción SETHI
