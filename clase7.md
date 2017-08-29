@@ -3,8 +3,11 @@
 ### Instrucción entera LOAD
 ### Instrucción entera STORE
 ### Instrucción SETHI
+### Instruccion NOP
 ### Instrucciones Lógicas
 ### Instrucciones SHIFT
 ### Instrucciones SAVE and RESTORE
+### TALLER
+¿ Que son las instrucciones sintéticas ?
 
 
