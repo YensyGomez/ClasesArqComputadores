@@ -8,8 +8,9 @@
 ### Instrucción entera STORE
 ![Instrucciones en SPARC V8](./images/InstruccionSTORE.png "Definición de Instrucciones store")
 ### Instrucción SETHI
-![Instrucciones en SPARC V8](./images/IntruccionSETHI.png "Definición de Instrucciones SETHI")
+![Instrucciones en SPARC V8](./images/IntruccionSETHI.png "Definición de Instrucción SETHI")
 ### Instruccion NOP
+![Instrucciones en SPARC V8](./images/InStruccionNOP.png "Definición de Instrucción NOP")
 ### Instrucciones Lógicas
 ### Instrucciones SHIFT
 ### Instrucciones SAVE and RESTORE
