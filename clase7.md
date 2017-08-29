@@ -6,6 +6,7 @@
 ![Instrucciones en SPARC V8](./images/ensambladorLOAD.png "Definición de Instrucciones LOAD")
 
 ### Instrucción entera STORE
+![Instrucciones en SPARC V8](./images/InstruccionSTORE.png "Definición de Instrucciones store")
 ### Instrucción SETHI
 ### Instruccion NOP
 ### Instrucciones Lógicas
