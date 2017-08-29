@@ -12,9 +12,11 @@
 ### Instruccion NOP
 ![Instrucciones en SPARC V8](./images/InstruccionNOP.png "Definición de Instrucción NOP")
 ### Instrucciones Lógicas
-![Instrucciones en SPARC V8](./images/Instruccionlogica.png "Definición de Instrucción NOP")
+![Instrucciones en SPARC V8](./images/Instruccionlogica.png "Definición de Instrucción LÓGICAS")
 ### Instrucciones SHIFT
+![Instrucciones en SPARC V8](./images/shift.png "Definición de Instrucción SHIFT")
 ### Instrucciones SAVE and RESTORE
+![Instrucciones en SPARC V8](./images/save.png "Definición de Instrucción SHIFT")
 ### TALLER
 ¿ Que son las instrucciones sintéticas ?
 
