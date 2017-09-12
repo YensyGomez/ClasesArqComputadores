@@ -1,4 +1,4 @@
-#TALLER ( PRIMER PARCIAL)
+# TALLER ( PRIMER PARCIAL)
 ### ARQUITECTURA DE COMPUTADORES
 #### 2017
 ###### Porcentaje 30%
@@ -16,7 +16,8 @@
 9. ¿Por que la instrucción CALL utilizar el registro %o7 ---> registro 15.
 10. 
 a.
-int main(){
+ ```assembly
+ int main(){
 	int a = 8;
 	int b = -16800;
 	int c = 33; 
@@ -28,6 +29,8 @@ else{
 }
 	return a+c;
 }
+ ```
+
 b.
 
 int main(){
