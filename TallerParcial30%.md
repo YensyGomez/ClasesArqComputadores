@@ -11,9 +11,9 @@
 5. Como puedo reescribir la instrucción **(OR y SUBcc)** cuando inicializo y  comparó 2 registros.
 
 6. Implementa en lenguaje ensamblador y lenguaje de máquina el siguiente programa.
-7. ¿Qué instrucciones utilizan el delay slot antes de saltar ?
+7. ¿Qué instrucciones utilizan el delay slot antes de saltar?
 8. ¿Qué significa el bit **a**, en el formato 2 de las instrucciones **BRANCH**?
-9. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.
+9. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.?
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
 a.
  ```c
