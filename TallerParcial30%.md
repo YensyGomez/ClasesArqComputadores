@@ -9,11 +9,15 @@
 3. Explique los tres formatos que se usan en la arquitectura SPARC V8, y que instrucciones usan los formatos correspondientes a la arquitectura **SPARC V8** 
 4. Explique cómo inicializar un valor grande, que ocupe más de 13 bits, en la arquitectura **SPARC V8**.
 5. Como puedo reescribir la instrucción **(OR y SUBcc)** cuando inicializo y  comparó 2 registros.
-
-6. Implementa en lenguaje ensamblador y lenguaje de máquina el siguiente programa.
-7. ¿Qué instrucciones utilizan el delay slot antes de saltar?
-8. ¿Qué significa el bit **a**, en el formato 2 de las instrucciones **BRANCH**?
-9. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.?
+6. ¿Qué instrucciones utilizan el delay slot antes de saltar?
+7. ¿Qué significa el bit **a**, en el formato 2 de las instrucciones **BRANCH**?
+8. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.?
+9. convertir el programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel el siguiente programa:
+```
+10100000000100000010000000000101
+10100010000100000011111111111010
+10010000000001000100000000010000
+```
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
 a.
  ```c
