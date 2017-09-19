@@ -29,3 +29,9 @@ Requisitos: resolver del 8 en adelnate.
 2. Manuel Prada --> lider del repositorio
 Requisitos: resuelve taller solo y todos los puntos del taller.
 
+### Grupo 5.
+
+### Grupo 6.
+
+
+
