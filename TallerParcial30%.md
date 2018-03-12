@@ -2,20 +2,33 @@
 ### ARQUITECTURA DE COMPUTADORES
 #### 2018
 ###### Jornada Especial.
-1.¿Que es una arquitectura de computador?
-2.Nombre las generaciones de los computadores y sus caracteristicas relevantes.
-3.Segun Flynn ¿ Cual es la clasificación de las arquitecturas según las instrucciones?
-4.Nombre clases de aplicaciones de computo.
-5.Muestre la clasificacion de la jerarquia de un equipo de computo.
-6.¿Que es un compilador?
-7.¿ Defina que es una instrucción?
-8.¿Cuales son los principios básicos de diseño de hardware de una arquitectura de computo, defina cada uno?
-9.¿Que es SPARC V8?
-10.¿Cuales son las categorias de intrucciones de la arquitectura SPARC V8?
-11.¿Que tipos de registros se encuentran en SPARC V8?
-12.¿ Cual es el número min y max que se puede implementar en la arquitectura SPARV8.
+1. ¿Que es una arquitectura de computador?
+
+2. Nombre las generaciones de los computadores y sus caracteristicas relevantes.
+
+3. Segun Flynn ¿ Cual es la clasificación de las arquitecturas según las instrucciones?
+
+4. Nombre clases de aplicaciones de computo.
+
+5. Muestre la clasificacion de la jerarquia de un equipo de computo.
+
+6. ¿Que es un compilador?
+
+7. ¿ Defina que es una instrucción?
+
+8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de computo, defina cada uno?
+
+9. ¿Que es SPARC V8?
+
+10. ¿Cuales son las categorias de intrucciones de la arquitectura SPARC V8?
+
+11. ¿Que tipos de registros se encuentran en SPARC V8?
+
+12. ¿ Cual es el número min y max que se puede implementar en la arquitectura SPARV8.
+
 13. ¿ Cuales son las instrucciones de memoria de SPARC V8? de un ejemplo de cada uno.
-14.Represente los siguientes números en complemento a 2.
+
+14. Represente los siguientes números en complemento a 2.
 ```
 	a.5
 	b.12890
@@ -23,14 +36,22 @@
 	d.11
 	e.140
 ```
-15.Explique las instrucciones aritmetico lógicas y su sintaxis en lenguaje ensamblador.
-16.Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
-17.¿Que diferencia hay entre el campo op, op2 y op3?
-18.¿Que es PSR ?, explique cada uno de sus campos.
-19.¿ Que es ICC y CWP?
-20.¿Que es una instruccion sintetica, de dos ejemplos?
-21.¿Que significa el campo a para una instrucción BRANCH?.
-22.¿Para que la instrucción CALL utiliza el registro %O7?.
+15. Explique las instrucciones aritmetico lógicas y su sintaxis en lenguaje ensamblador.
+
+16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
+
+17. ¿Que diferencia hay entre el campo op, op2 y op3?
+
+18. ¿Que es PSR ?, explique cada uno de sus campos.
+
+19. ¿ Que es ICC y CWP?
+
+20. ¿Que es una instruccion sintetica, de dos ejemplos?
+
+21. ¿Que significa el campo a para una instrucción BRANCH?.
+
+22. ¿Para que la instrucción CALL utiliza el registro %O7?.
+
 23. convertir el programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel el siguiente programa:
 ```
 10100000000100000010000000000101
@@ -103,6 +124,7 @@ int main(){
 }
  ```
 
-27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función desarrollada en el punto 9.
+27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.
+
 28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.
 
