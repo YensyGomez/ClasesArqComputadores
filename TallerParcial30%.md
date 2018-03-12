@@ -10,7 +10,7 @@
 
 4. Nombre clases de aplicaciones de computo.
 
-5. Muestre la clasificacion de la jerarquia de un equipo de computo.
+5. Muestre la clasificación de la jerarquia de un equipo de computo.
 
 6. ¿Que es un compilador?
 
@@ -18,13 +18,13 @@
 
 8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de computo, defina cada uno?
 
-9. ¿Que es SPARC V8?
+9. ¿Que es SPARCV8?
 
-10. ¿Cuales son las categorias de intrucciones de la arquitectura SPARC V8?
+10. ¿Cuales son las categorias de instrucciones de la arquitectura SPARCV8?
 
 11. ¿Que tipos de registros se encuentran en SPARC V8?
 
-12. ¿ Cual es el número min y max que se puede implementar en la arquitectura SPARV8.
+12. ¿ Cual es el número min y max de registros que se puede implementar en la arquitectura SPARV8?
 
 13. ¿ Cuales son las instrucciones de memoria de SPARC V8? de un ejemplo de cada uno.
 
@@ -36,7 +36,7 @@
 	d.11
 	e.140
 ```
-15. Explique las instrucciones aritmetico lógicas y su sintaxis en lenguaje ensamblador.
+15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.
 
 16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
 
