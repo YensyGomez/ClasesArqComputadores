@@ -2,31 +2,31 @@
 ### ARQUITECTURA DE COMPUTADORES
 #### 2018
 ###### Jornada Especial.
-1. ¿Que es una arquitectura de computador?
+1. ¿Que es una arquitectura de computadores?
 
-2. Nombre las generaciones de los computadores y sus caracteristicas relevantes.
+2. Nombre las generaciones de los computadores y sus características más relevantes.
 
-3. Segun Flynn ¿ Cual es la clasificación de las arquitecturas según las instrucciones?
+3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
 
-4. Nombre clases de aplicaciones de computo.
+4. Nombre las clases de aplicaciones de cómputo.
 
-5. Muestre la clasificación de la jerarquia de un equipo de computo.
+5. Muestre la clasificación de la jerarquía de un equipo de cómputo.
 
-6. ¿Que es un compilador?
+6. ¿Qué es un compilador?
 
-7. ¿ Defina que es una instrucción?
+7. ¿ Defina qué es una instrucción?
 
-8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de computo, defina cada uno?
+8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
 
-9. ¿Que es SPARCV8?
+9. ¿Qué es SPARCV8?
 
-10. ¿Cuales son las categorias de instrucciones de la arquitectura SPARCV8?
+10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
 
 11. ¿Que tipos de registros se encuentran en SPARC V8?
 
-12. ¿ Cual es el número min y max de registros que se puede implementar en la arquitectura SPARV8?
+12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
 
-13. ¿ Cuales son las instrucciones de memoria de SPARC V8? de un ejemplo de cada uno.
+13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.
 
 14. Represente los siguientes números en complemento a 2.
 ```
@@ -40,25 +40,25 @@
 
 16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
 
-17. ¿Que diferencia hay entre el campo op, op2 y op3?
+17. ¿Qué diferencia hay entre el campo **op, op2 y op3**?
 
-18. ¿Que es PSR ?, explique cada uno de sus campos.
+18. ¿Qué es **PSR** ?, explique cada uno de sus campos.
 
-19. ¿ Que es ICC y CWP?
+19. ¿ Qué es **ICC** y **CWP**?
 
-20. ¿Que es una instruccion sintetica, de dos ejemplos?
+20. ¿Qué es una instrucción sintética, de dos ejemplos?
 
-21. ¿Que significa el campo a para una instrucción BRANCH?.
+21. ¿Qué significa el campo **a** para una instrucción BRANCH?.
 
-22. ¿Para que la instrucción CALL utiliza el registro %O7?.
+22. ¿Para qué la instrucción **CALL** utiliza el registro %O7?.
 
-23. convertir el programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel el siguiente programa:
+23. Convertir el siguiente programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel:
 ```
 10100000000100000010000000000101
 10100010000100000011111111111010
 10010000000001000100000000010000
 ```
-24.Solucione el siguientes programas en lenguaje ensamblador, lenguaje de máquina y hexadecimal, ademas coloque su dirección de memoria.
+24.Solucione el siguiente programas en lenguaje ensamblador, lenguaje de máquina y hexadecimal, además coloque su dirección de memoria.
 ```c
 int main(){
 	int i = 5; 
